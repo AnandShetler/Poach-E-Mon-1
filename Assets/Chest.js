@@ -19,7 +19,7 @@ if (showText) {
 		npcStyle.padding = RectOffset(10,10,10,10);
 
 		//show inventory in list form
-		GUI.Label(Rect(Screen.width/2-200,Screen.height/2-200,400,100),""+other.monsterInventory[0],npcStyle);
+		//GUI.Label(Rect(Screen.width/2-200,Screen.height/2-200,400,100),""+other.monsterInventory,npcStyle);
 	}
 
 
@@ -36,18 +36,18 @@ function Update () {
 function open(){
 
 Debug.Log("lol");
-
-var other : PlayerStats;
-	other = gameObject.Find("Player").GetComponent(PlayerStats);
-
-	other.disableMovement = true;
-
-	showText = true;
-
-	yield WaitForSeconds(3);
-
-	showText = false;
-
-	other.disableMovement = false;
-
+//
+//var other : PlayerStats;
+//	other = gameObject.Find("Player").GetComponent(PlayerStats);
+//
+//	other.disableMovement = true;
+//
+//	showText = true;
+//
+//	yield WaitForSeconds(3);
+//
+//	showText = false;
+//
+//	other.disableMovement = false;
+//
 }

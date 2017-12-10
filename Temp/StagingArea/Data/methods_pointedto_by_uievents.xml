@@ -1,0 +1,8 @@
+<linker>
+	<assembly fullname="Assembly-UnityScript">
+		<type fullname="MainMenu">
+			<method name="LoadGame"/>
+			<method name="QuitGame"/>
+		</type>
+	</assembly>
+</linker>
